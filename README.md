@@ -6,19 +6,25 @@ This is a REST API for a company-wide steps leaderboard application. Teams of em
 
 ## Installation
 
-1. Install dependencies:
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/tanming363/efficy
+   ```
+
+2. Install dependencies:
 
    ```bash
    npm install
    ```
 
-2. Build the project:
+3. Build the project:
 
    ```bash
    npm run build
    ```
 
-3. Start the server:
+4. Start the server:
 
    ```bash
    npm start
@@ -30,7 +36,7 @@ This is a REST API for a company-wide steps leaderboard application. Teams of em
    npm run start:dev
    ```
 
-4. Access the Swagger API docs at:
+5. Access the Swagger API docs at:
 
    ```
    http://localhost:3000/api-docs
@@ -40,7 +46,7 @@ This is a REST API for a company-wide steps leaderboard application. Teams of em
 
 ### Teams
 
-By default, the server will run on http://localhost:3000.
+By default, the server will run on http://localhost:3000
 
 - **POST** `/api/teams`: Create a new team.
 - **GET** `/api/teams`: Get a list of all teams.
